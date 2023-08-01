@@ -70,7 +70,7 @@ const holdScore = function() {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 110) {
       playing = false;
       diceEl.classList.add('hidden');
       document
